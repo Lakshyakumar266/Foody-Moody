@@ -467,7 +467,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  right: 10%;
+  right: 15%;
 }
 .social-link-bar-container a {
   margin: 0 5px;
@@ -485,4 +485,16 @@ footer {
 }
 .element{
   height: 32px;
+}
+.signatur{
+  position: absolute;
+  right: 3%;
+  
+}
+.signatur img{
+  position: absolute;
+  width: 50px;  
+  height: 50px;  
+  right: 25%;
+  transform: rotateZ(22deg);
 }
